@@ -95,7 +95,7 @@ SCHEDULER_CLASS = 'ndscheduler.corescheduler.core.base.BaseScheduler'
 #
 # Set logging level
 #
-logging.getLogger().setLevel(logging.INFO)
+logging.getLogger(__name__).setLevel(logging.INFO)
 
 
 # Packages that contains job classes, e.g., simple_scheduler.jobs

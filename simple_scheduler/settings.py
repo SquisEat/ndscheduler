@@ -13,6 +13,6 @@ HTTP_ADDRESS = '0.0.0.0'
 #
 # Set logging level
 #
-logging.getLogger().setLevel(logging.DEBUG)
+logging.getLogger(__name__).setLevel(logging.DEBUG)
 
 JOB_CLASS_PACKAGES = ['simple_scheduler.jobs']

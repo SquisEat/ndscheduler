@@ -17,7 +17,7 @@ import sys
 
 from ndscheduler import default_settings
 
-logger = logging.getLogger()
+logger = logging.getLogger(__name__)
 ch = logging.StreamHandler(sys.stdout)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 ch.setFormatter(formatter)
